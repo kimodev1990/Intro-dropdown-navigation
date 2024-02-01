@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Landing Page Details">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+    <title>Snap</title>
+</head>
+
+<body id="bg-body" class="bg-almost-White">
+    <main>
+        <div class="relative container max-w-md mx-auto md:max-w-7xl ">
+            <div class="relative flex items-start justify-between px-6 pt-7 md:mb-10 md:px-5">
+                <img src="./images/logo.svg" alt="logo">
+                <div id="menu-hamburger-mobile" class="hamburger block outline-none cursor-pointer z-50 md:hidden">
+                    <div class="top-line"></div>
+                    <div class="middle-line"></div>
+                    <div class="last-line"></div>
+                </div>
+                <div id="menu-contents-desktop">
+                    <div class="md:absolute md:left-32">
+                        <details class="flex self-start">
+                            <summary class="cursor-pointer">Features</summary>
+                            <div class="pl-5 z-50">
+                                <div class="menu-bar-logos my-2">
+                                    <img src="./images/icon-todo.svg" alt="">
+                                    <h2 class="cursor-pointer">Todo List</h2>
+                                </div>
+                                <div class="menu-bar-logos my-2">
+                                    <img src="./images/icon-calendar.svg" alt="">
+                                    <h2 class="cursor-pointer">Calender</h2>
+                                </div>
+                                <div class="menu-bar-logos my-2">
+                                    <img src="./images/icon-reminders.svg" alt="">
+                                    <h2 class="cursor-pointer">Reminders</h2>
+                                </div>
+                                <div class="menu-bar-logos my-2">
+                                    <img src="./images/icon-planning.svg" alt="">
+                                    <h2 class="cursor-pointer">Planning</h2>
+                                </div>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="md:absolute md:left-64">
+                        <details class="flex self-start">
+                            <summary class="cursor-pointer">Company</summary>
+                            <div class="pl-5">
+                                <h2 class="my-2 cursor-pointer">History</h2>
+                                <h2 class="my-2 cursor-pointer">Our Team</h2>
+                                <h2 class="my-2 cursor-pointer">Blog</h2>
+                            </div>
+                        </details>
+                    </div>
+                    <div class="md:absolute md:left-[400px]">
+                        <h2 class="cursor-pointer">
+                            Careers
+                        </h2>
+                    </div>
+                    <div class="md:absolute md:left-[500px]">
+                        <h2 class="cursor-pointer">
+                            About
+                        </h2>
+                    </div>
+                    <div class="flex items-start justify-center space-x-8">
+                        <div>
+                            <h2 class="cursor-pointer">Login</h2>
+                        </div>
+                        <button
+                            class="bg-almost-White w-24 rounded-lg text-black p-2 text-sm border-2 border-black cursor-pointer">
+                            Register
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div id="menu-contents-mobile" class="hidden">
+                <div class="absolute flex flex-col items-center w-64 h-[755.8px] right-0 top-0 bg-almost-White pt-20">
+                    <details class="flex self-start pl-4">
+                        <summary class="mb-2 cursor-pointer">Features</summary>
+                        <div class="pl-7">
+                            <div class="menu-bar-logos my-2">
+                                <img src="./images/icon-todo.svg" alt="">
+                                <h2 class="cursor-pointer">Todo List</h2>
+                            </div>
+                            <div class="menu-bar-logos my-2">
+                                <img src="./images/icon-calendar.svg" alt="">
+                                <h2 class="cursor-pointer">Calender</h2>
+                            </div>
+                            <div class="menu-bar-logos my-2">
+                                <img src="./images/icon-reminders.svg" alt="">
+                                <h2 class="cursor-pointer">Reminders</h2>
+                            </div>
+                            <div class="menu-bar-logos my-2">
+                                <img src="./images/icon-planning.svg" alt="">
+                                <h2 class="cursor-pointer">Planning</h2>
+                            </div>
+                        </div>
+                    </details>
+                    <details class="flex self-start pl-4">
+                        <summary class="mt-2 cursor-pointer">Company</summary>
+                        <div class="pl-7">
+                            <h2 class="my-2 cursor-pointer">History</h2>
+                            <h2 class="my-2 cursor-pointer">Our Team</h2>
+                            <h2 class="my-2 cursor-pointer">Blog</h2>
+                        </div>
+                    </details>
+                    <div class="flex self-start pl-4">
+                        <h2 class="my-2 cursor-pointer">
+                            Careers
+                        </h2>
+                    </div>
+                    <div class="flex self-start pl-4">
+                        <h2 class="my-2 cursor-pointer">
+                            About
+                        </h2>
+                    </div>
+                    <h2 class=" mt-8 cursor-pointer">Login</h2>
+                    <button
+                        class="bg-almost-White w-44 rounded-lg text-black p-2 text-sm border-2 border-black mt-2 cursor-pointer">
+                        Register
+                    </button>
+                </div>
+            </div>
+            <div class="md:flex md:items-center md:flex-row-reverse">
+                <div class="my-10 md:w-2/5 md:my-0">
+                    <picture>
+                        <source media="(min-width:768px)" srcset="./images/image-hero-desktop.png">
+                        <img src="./images/image-hero-mobile.png" alt="Image Hero" style="width:auto;">
+                    </picture>
+                </div>
+                <div
+                    class="text-center mb-10 md:mb-0 md:w-3/5 md:flex md:flex-col md:items-start md:justify-between md:pl-20 md:pr-10">
+                    <h1 class="text-4xl font-bold md:font-hero-size md:text-left">Make remote work</h1>
+                    <p class="text-xl my-4 md:text-left">Get your team in sync, no matter your location. Streamline
+                        processes,
+                        create team rituals, and watch productivity soar.</p>
+                    <button class="btn">Learn more</button>
+                    <div class="logos-display mt-10 md:space-x-12">
+                        <div><img src="./images/client-databiz.svg" alt="databiz logo"></div>
+                        <div><img src="./images/client-audiophile.svg" alt="audiophile logo"></div>
+                        <div><img src="./images/client-meet.svg" alt="meet- logo"></div>
+                        <div><img src="./images/client-maker.svg" alt="maker logo"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
